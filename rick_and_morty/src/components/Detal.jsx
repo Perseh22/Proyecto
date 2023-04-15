@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
-const API_KEY = "1ad1484d1b80.241f07685e8dcc7eaaca";
+const API_KEY = "590bce780340.832675ec038229097bfe";
 const URL_BASE = "https://be-a-rym.up.railway.app/api/character";
 
 const Detail = () => {
