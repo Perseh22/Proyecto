@@ -32,7 +32,7 @@ function App() {
     });
   }
 
-  //funciones
+  //funciones2
   return (
     <div className="App">
       {location.pathname !== "/" && <Nav onSearch={onSearch} />  }
