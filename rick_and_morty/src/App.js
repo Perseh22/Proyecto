@@ -9,11 +9,9 @@ import axios from "axios";
 import { Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
-const API_KEY ="590bce780340.832675ec038229097bfe"
 const URL_BASE = "https://be-a-rym.up.railway.app/api/character";
 
 function App() {
-  //funciones
   const location = useLocation()
   const [characters, setCharacters] = useState([]);
   const onClose = (id) => {
